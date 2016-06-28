@@ -9,11 +9,9 @@
 	#include "WProgram.h"
 #endif
 
-const float pi = 4.0 * atan(1.0); //Pi - 3.1415...
-const float re = 6367e3; //mean Radius of Earth in meters
-const float deg2rad = pi / 180.0; //degree to radians
-
-
+const float pi = 4.0 * atan(1.0);   //Pi - 3.1415...
+const float re = 6367e3;            //mean Radius of Earth in meters
+const float deg2rad = pi / 180.0;   //degree to radians
 
 bool GPSDist(float fromLatdeg, float fromLondeg, float toLatdeg, float toLondeg, long int *dist, long int *azim)
 {
